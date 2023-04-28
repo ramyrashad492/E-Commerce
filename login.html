@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SinUp</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/signup.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HRMS-Log in page</title>
+  <script src="https://kit.fontawesome.com/5c8f045964.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-image: url('images/img3.jpg');background-repeat: no-repeat;background-size: cover;z-index: 2;">
+    <form id="login" method="post" onsubmit="logins()" >
+        <div class="upper-bar">
+            <div class="navbar-brand">
+              <!--<img src="../imges/logo2.png" alt="logo">-->
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+          <h3>Login</h3>
+        <div class="left" style="padding-left: 30px; width: 100%;">
+            <i class="glyphicon glyphicon-user"></i>
+            <input id="loginName" type="text" name="loginName" required placeholder="Enter Your Name"> 
+            <br>
+            <br>
+            <i class="fa fa-lock" style="font-size: 18px;"></i>
+            <input id="loginPass" type="password" name="loginpassword" placeholder="Password" required >
+            <br>
+            <br>
+        </div>
+        <br>
+        <label id="invalid-data" style="margin-left: 75%;"></label>
+
+        <br>
+        <input id="chbox" style="margin-left: 75%;" type="checkbox" name="g3" value="agree"> 
+        <label for="chbox" >remember me</label>
+        
+        <input type="submit" id="button" value="Login">
+        <br>
+        <label for="have" style="margin-left: 30%;">  Haven't An Account?<a href="signUp.html"> Signup </a></label>
+    </form>
+    
+    <script src="https://kit.fontawesome.com/5c8f045964.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+     <script src="js/data.js"></script>
+</body>
+</html>

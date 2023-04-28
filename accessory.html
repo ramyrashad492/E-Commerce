@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRMS-Accessories</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/project.css">
+    <!--Javascript referance fill-->
+    <script src="https://kit.fontawesome.com/5c8f045964.js" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.x-git.min.js" defer></script>
+    <script src="js/bootstrap.min.js" defer></script>
+    <!--<script src="../JS/popper.min.js"></script>-->
+</head>
+
+<body onload="setcate('Accessories') ,changHome(),cardQunter()">
+    <!-- header -->
+    <div class="navbar navbar-expand sticky-top">
+        <div class="container">
+            <div class="upper-bar">
+                <a href="index.html" class="navbar-brand">
+                    <!--<img src="../imges/logo2.png" alt="logo">-->
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="span1"> HRMS</span>
+                </a>
+            </div>
+            <div class="ul navbar-nav nav justify-content-center" style="margin-left: 15%">
+                <li class="nav-item"><a href="electro.html" class="nav-link"><img class="navimage"
+                            src="images/electronics.png"></a></li>
+                <li class="nav-item"><a href="accessory.html" class="nav-link"><img class="navimage"
+                            src="images/necklace.png"></a>
+                </li>
+                <li class="nav-item"><a href="men.html" class="nav-link"><img class="navimage"
+                            src="images/suit.png"></a></li>
+                <li class="nav-item"><a href="women.html" class="nav-link"><img class="navimage"
+                            src="images/dress.png"></a></li>
+                <li class="nav-item "><a href="location.html" class="nav-link"><img class="navimage"
+                            src="images/technical-support.png"></a></li>
+                            <li class="nav-item ">
+                                    <a href="cardPage.html" class="nav-link"> 
+                                         <div class="container"><span id="cardCounter" style="position: relative; float: left; z-index: 1000; "></span>
+                                             <img src="https://img.icons8.com/color/48/000000/add-shopping-cart--v2.png" /></div>
+                                      </a></li>
+                                       <li id="nav-change-1" class="nav-item "></li>
+                    <li id="nav-change-2" class="nav-item "></li>
+            </div>
+        </div>
+    </div>
+
+    <!-- loader -->
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    
+    
+    <!-- products -->
+     <div class="containerCards">
+            
+        <div class="row" id="Products">
+                <div class="row" id="listingTable"></div>
+
+            
+        </div>
+    
+
+    </div>
+    <div style="text-align: center" class="m-5">
+            <a class=" btn btn-outline-info"  href="#" onclick="prevPage()" id="btn_prev">Prev</a>
+        <a class="btn btn-outline-info" onclick="nextPage()" id="btn_next">Next</a>
+        page: <span id="page"></span>
+            </div>  
+
+    <!-- footer -->
+    <div class="footerhome">
+        <div class="containerhome">
+            <i class="fas fa-shopping-cart ic1"></i>
+            <span class="span1"> HRMS</span>
+
+            <p>We Are Social</p>
+
+            <div class="social-icons">
+                <a href="https://web.facebook.com/"><i class="fab fa-facebook-f "></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://mail.google.com/"><i class="fa fa-google-plus"></i></a>
+                <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="copyright">&copy; 2021 <span>HRMS</span>All Right Reserved</p>
+        </div>
+    </div>
+
+
+    <script>
+       
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/project.js"></script>
+    <script src="js/data.js"></script>
+
+</body>
+
+</html>
